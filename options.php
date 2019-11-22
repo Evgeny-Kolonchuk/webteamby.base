@@ -20,7 +20,7 @@ if (!$USER->isAdmin()) {
 
 Loc::loadMessages(__FILE__);
 
-$MODULE_ID = CALENDAR_MODULE_ID;
+$MODULE_ID = BASE_WEBTEAM_MODULE_ID;
 
 $app = Application::getInstance();
 $context = $app->getContext();
