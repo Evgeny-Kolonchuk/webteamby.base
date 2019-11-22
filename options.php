@@ -1,6 +1,6 @@
 <?
 
-// !!! WEBTEAMBY_BASE - реплейсим это значение для нового модуля, включая языковые файлы и прочее
+// !!! WEBTEAMBY_BASE - реплейсим это значение для нового модуля, включая языковые файлы и прочее, константа WEBTEAMBY_BASE_MODULE_ID - так же!
 
 use \Bitrix\Main\Application;
 use \Bitrix\Main\Config\Option;
@@ -20,7 +20,7 @@ if (!$USER->isAdmin()) {
 
 Loc::loadMessages(__FILE__);
 
-$MODULE_ID = BASE_WEBTEAM_MODULE_ID;
+$MODULE_ID = WEBTEAMBY_BASE_MODULE_ID;
 
 $app = Application::getInstance();
 $context = $app->getContext();

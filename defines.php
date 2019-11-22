@@ -1,2 +1,2 @@
 <?
-define(BASE_WEBTEAM_MODULE_ID, 'webteamby.base');
+define(WEBTEAMBY_BASE_MODULE_ID, 'webteamby.base');
